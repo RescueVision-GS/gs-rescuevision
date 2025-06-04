@@ -108,3 +108,111 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+/* ===== BREAKPOINTS/RESPONSIVIDADE ===== */
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p,
+  .sobre p {
+    font-size: 1rem;
+  }
+
+  .sobre h2 {
+    font-size: 1.5rem;
+  }
+
+  .sobre {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .sobre h2 {
+    font-size: 1.8rem;
+  }
+
+  .sobre p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .sobre {
+    padding: 3rem 2rem;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .sobre {
+    max-width: 900px;
+    padding: 3rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .logo {
+    height: 110px;
+  }
+
+  .hero {
+    padding: 5rem 2rem;
+  }
+
+  .sobre {
+    max-width: 900px;
+    padding: 4rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sobre h2 {
+    font-size: 2.4rem;
+  }
+
+  .sobre p {
+    font-size: 1.3rem;
+  }
+}
