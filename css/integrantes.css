@@ -67,3 +67,36 @@
 .links a:hover {
   color: #5a6aff;
 }
+
+/* ===== BREAKPOINTS/RESPONSIVIDADE ===== */
+
+@media (max-width: 600px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .card {
+    width: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .card {
+    width: 340px;
+  }
+}
