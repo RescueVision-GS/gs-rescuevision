@@ -67,3 +67,52 @@
   background-color: #5a6aff;
 }
 
+/* ===== BREAKPOINTS/RESPONSIVIDADE ===== */
+
+@media (max-width: 600px) {
+  .contato {
+    padding: 1.5rem 1rem;
+  }
+
+  .campo-form input,
+  .campo-form textarea {
+    font-size: 0.95rem;
+  }
+
+  button[type="submit"] {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .contato h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contato {
+    padding: 2rem 2.5rem;
+  }
+
+  .contato h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contato {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .contato {
+    max-width: 750px;
+  }
+
+  .campo-form input,
+  .campo-form textarea {
+    font-size: 1.1rem;
+  }
+}
