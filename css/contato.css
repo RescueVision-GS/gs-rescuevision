@@ -67,6 +67,31 @@
   background-color: #5a6aff;
 }
 
+/* ===== MENSAGEM VISUAL ===== */
+
+#mensagem-feedback {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+#mensagem-feedback.erro {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid #d8000c;
+  border-radius: 4px;
+}
+
+#mensagem-feedback.sucesso {
+  color: #4f8a10;
+  background-color: #dff2bf;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid #4f8a10;
+  border-radius: 4px;
+}
+
 /* ===== BREAKPOINTS/RESPONSIVIDADE ===== */
 
 @media (max-width: 600px) {
