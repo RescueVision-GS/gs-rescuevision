@@ -1,0 +1,274 @@
+.hero-section {
+  position: relative;
+  height: 350px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--cor-gradiente);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.hero-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.hero-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.problema {
+  background-color: var(--cor-neutra);
+  padding: 3rem 1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.15rem;
+  color: #111;
+}
+
+.problema.sobre {
+  background: var(--cor-primaria);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: 3rem auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.problema.sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.problema.sobre p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.solucao {
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+}
+
+.solucao h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--cor-primaria);
+}
+
+.cards-solucao {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-solucao {
+  background: #fff;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card-solucao:hover {
+  transform: translateY(-8px);
+}
+
+.icone-solucao {
+  font-size: 3rem;
+  color: var(--cor-primaria);
+  margin-bottom: 1rem;
+}
+
+.card-solucao h3 {
+  margin-bottom: 1rem;
+  color: var(--cor-primaria);
+}
+
+.card-solucao ul {
+  list-style: disc inside;
+  text-align: left;
+  color: #111;
+  font-size: 1rem;
+  padding-left: 0;
+}
+
+.card-solucao ul li {
+  margin-bottom: 0.5rem;
+}
+
+.tecnologias {
+  background-color: var(--cor-neutra);
+  padding: 3rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+  text-align: center;
+}
+
+.tecnologias h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--cor-primaria);
+}
+
+.tecnologias-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tec-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  text-align: center;
+  color: #111;
+  font-weight: 600;
+}
+
+.tec-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.tec-item p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--cor-primaria);
+  margin-top: 0.5rem;
+}
+
+.beneficios {
+  padding: 2rem 1rem 3rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+  text-align: center;
+}
+
+.beneficios h2 {
+  margin-bottom: 2rem;
+  color: var(--cor-primaria);
+}
+
+.cards-beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card-beneficio {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  width: 220px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  font-weight: 600;
+  color: var(--cor-primaria);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.card-beneficio:hover {
+  background-color: var(--cor-primaria);
+  color: white;
+}
+
+.contato-final {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.btn-contato {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-contato:hover {
+  background-color: #5a6aff;
+}
+
+@media (max-width: 768px) {
+  .cards-solucao,
+  .cards-beneficios,
+  .tecnologias-logos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-solucao,
+  .card-beneficio,
+  .tec-item {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .problema.sobre {
+    padding: 2rem 1rem;
+    margin: 2rem 1rem;
+  }
+
+  .problema.sobre h2 {
+    font-size: 1.5rem;
+  }
+
+  .problema.sobre p {
+    font-size: 1rem;
+  }
+
+  .tec-item {
+    width: 100px;
+  }
+
+  .tec-item img {
+    width: 80px;
+    height: 80px;
+  }
+}
