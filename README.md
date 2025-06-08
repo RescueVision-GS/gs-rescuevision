@@ -6,6 +6,8 @@ Este repositório contém a interface web do projeto **RescueVision**, criada co
 
 [Acesse o repositório no GitHub](https://github.com/RescueVision-GS/gs-rescuevision)
 
+[Acesse o site na Web](https://rescuevision.vercel.app/)
+
 ---
 
 ## Integrantes
