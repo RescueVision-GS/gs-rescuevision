@@ -4,7 +4,7 @@ Este repositório contém a interface web do projeto **RescueVision**, criada co
 
 > ⚠️ Este projeto **não implementa funcionalidades técnicas** como controle de sensores ou IA. Seu foco é **explicar como a solução funciona**, sua importância e como ela pode ser aplicada na prática.
 
-[Acesse o repositório no GitHub](https://github.com/NeuroAI-frontEnd/sprint-frontEnd-fiap)
+[Acesse o repositório no GitHub](https://github.com/RescueVision-GS/gs-rescuevision)
 
 ---
 
@@ -77,6 +77,6 @@ O site tem como função:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/NeuroAI-frontEnd/sprint-frontEnd-fiap.git
+   git clone https://github.com/RescueVision-GS/gs-rescuevision.git
 
 ---
